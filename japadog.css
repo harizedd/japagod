@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(white, white);
+}
+
+.header {
+    /* min-height: 120vh; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    background-color: red;
+    width: 100%;
+    height: 110px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 0px;
+    color: red;
+    text-decoration: none;
+    font-size: 35px;
+    width: 20%;
+    text-align: center;
+    border-top-width: 8px;
+    border-top-style: solid;
+    border-color: #F0141E;
+    border-width: 5px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: #ffba08;
+}
+
+.navbar a:hover {
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 30%;
+    border-style: solid;
+}
+
+.logo {
+    padding-top: 70px;
+}
+
+
+/*---- promoções ----*/
+
+
+/* .promocoes h1 {
+    color: red;
+    font-size: 150px;
+}
+
+.promocoes {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.promocoes p {
+    color: #777;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px 0 50px;
+}
+
+.promocoes-col {
+    flex-basis: 31%;
+    background-color: #e85d04;
+    border-radius: 15%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.promocoes-col:hover {
+    background-color: red;
+    flex-basis: 35%;
+}
+
+.promocoes-col h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.promocoes-col img {
+    border: solid;
+    border-radius: 15%;
+    border-color: #ffba08;
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+} */
+
+
+/*---- combos ----*/
+
+
+/* .combos {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.combos-col:hover {
+    background-color: red;
+}
+
+.combos p {
+    color: #777;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px 0 50px;
+}
+
+.combos-col {
+    flex-basis: 31%;
+    background-color: #e85d04;
+    border-radius: 15%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.combos-col h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.combos-col p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.combos-col img {
+    border: solid;
+    border-radius: 15%;
+    border-color: #ffba08;
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+} */
+
+
+/*---- lanches ----*/
+
+.lanches {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.row {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lanches p {
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px 0 50px;
+}
+
+.lanches-col {
+    flex-basis: 31%;
+    background-color: #dc2f02;
+    border-radius: 15%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.lanches-col h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lanches-col p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.lanches-col:hover {
+    box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.2);
+    background-color: red;
+    flex-basis: 35%;
+}
+
+.lanches-col img {
+    border: solid;
+    border-radius: 15%;
+    border-color: #ffba08;
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+}
+
+
+/*---- porções ----*/
+
+
+/* .porcoes {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.porcoes p {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px 0 50px;
+}
+
+.porcoes-col {
+    flex-basis: 31%;
+    background-color: #e85d04;
+    border-radius: 15%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.porcoes-col:hover {
+    background-color: red;
+}
+
+.porcoes-col h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.porcoes-col img {
+    border: solid;
+    border-radius: 15%;
+    border-color: #ffba08;
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+} */
+
+
+/*---- bebidas ----*/
+
+.bebidas {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bebidas p {
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px 0 50px;
+}
+
+.bebidas-col {
+    flex-basis: 31%;
+    background-color: #e85d04;
+    border-radius: 15%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.bebidas-col:hover {
+    background-color: red;
+}
+
+.bebidas-col h3 {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bebidas-col img {
+    border: solid;
+    border-radius: 15%;
+    border-color: #ffba08;
+    width: 80%;
+    padding: 5px 5px 5px 5px;
+}
+
+
+/*---- footer ----*/
+
+
+/* .footer p {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 10px;
+    padding: 5px;
+} */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-style: "";
+    color: white;
+    padding: 30px 0;
+    background-color: red;
+    padding-top: 2px;
+}
+
+
+/* .footer ul li.mastercard {
+    font-size: 14px;
+    background: url(japagod/mastercard-logo-2-1.png) no-repeat;
+    transform: scale(1.8);
+    width: 45px;
+    position: relative;
+    left: 10px;
+}
+
+.footer-stamps-legal ul li.visa {
+    font-size: 14px;
+    background: url(japagod/visa-logo-5.png) no-repeat;
+    transform: scale(1.8);
+    width: 45px;
+    position: relative;
+    left: 10px;
+}
+
+.footer-stamps-legal ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    background: no-repeat;
+    text-indent: -99999px;
+    height: 25px;
+} */
+
+.footer h4 {
+    font-size: 70px;
+    color: #dc2f02;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.icons .fab {
+    color: white;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    width: 2%;
+    font-size: 30px;
+}
+
+.fa-heart {
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.linha {
+    border-top: 1px solid #343a40;
+    width: 80%;
+    margin: 25px auto;
+    line-height: 1em;
+}
+
+.cartoes-col {
+    display: inline-block;
+}
+
+.cartoes-col img {
+    width: 3%;
+    border-radius: 10%;
+    width: 4%;
+}
+
+.signature {
+    padding-top: 1%;
+}

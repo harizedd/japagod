@@ -4,10 +4,6 @@
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-body {
-    background-image: linear-gradient(white, white);
-}
-
 .header {
     /* min-height: 120vh; */
     width: 100%;
@@ -20,11 +16,24 @@ header {
 }
 
 .box-area img {
-    width: 120px;
+    width: 142px;
     display: flex;
+    margin: 0 0 0 600px;
     justify-content: center;
-    margin: auto;
-    border-style: solid;
+    display: inline-block;
+    /*border-style: solid;*/
+}
+
+
+.fal {
+    float: right;
+    z-index: 1;
+    color: white;
+    margin: 10px 60px;
+    cursor: pointer;
+    padding: 18px 0;
+    width: 2%;
+    font-size: 30px;
 }
 
 .navbar {
@@ -380,7 +389,7 @@ h3 {
     font-style: "";
     color: white;
     padding: 30px 0;
-    background-color: rgb(238, 28, 37);
+    background-color: red;
     padding-top: 2px;
 }
 

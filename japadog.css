@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', sans-serif;;
+    font-family: 'Trebuchet MS', sans-serif;
+    ;
 }
 
 .header {
@@ -15,17 +16,38 @@ header {
     background-color: rgb(238, 28, 37);
     margin: 0px;
     padding: 0px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: row;
+    margin-bottom: 1px;
 }
 
 .box-area img {
     width: 120px;
-    /*border-style: solid;*/
+    display: flex;
+    align-items: center;
+    margin-left: 60PX;
 }
 
+#logoheader img {
+    width: 140px;
+    flex-grow: 3;
+    flex-grow: 4;
+    flex-basis: 20%;
+    align-self: center;
+}
+
+.box-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fas {
+    color: white;
+    margin: 0px 0px;
+    cursor: pointer;
+    padding: 0px 0;
+    font-size: 30px;
+    width: 50px;
+}
 
 .fal {
     color: white;
@@ -33,6 +55,7 @@ header {
     cursor: pointer;
     padding: 0px 0;
     font-size: 30px;
+    width: 60px;
 }
 
 .navbar {
@@ -354,6 +377,7 @@ h3 {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .bebidas h3 {
     text-align: center;
     font-weight: 600;
@@ -390,7 +414,8 @@ h3 {
 .footer {
     width: 100%;
     text-align: center;
-    font-family: 'Trebuchet MS', sans-serif;;
+    font-family: 'Trebuchet MS', sans-serif;
+    ;
     color: white;
     padding: 30px 0;
     background-color: red;

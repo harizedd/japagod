@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     ;
 }
 
@@ -23,7 +23,7 @@ header {
     width: 120px;
     display: flex;
     align-items: center;
-    margin-left: 60PX;
+    margin-left: 0PX;
 }
 
 #logoheader img {
@@ -36,7 +36,7 @@ header {
 
 .box-area {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -250,6 +250,7 @@ h1 {
     font-weight: 600;
     line-height: 22px;
     padding: 10px 0 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .lanches-col {
@@ -281,7 +282,6 @@ h3 {
 }
 
 .lanches-col:hover {
-    box-shadow: 0 0 60px 0px rgba(0, 0, 0, 0.2);
     background-color: orange;
 }
 
@@ -500,4 +500,5 @@ h3 {
 
 .signature {
     padding-top: 1%;
+    font-family: 'Trebuchet MS', sans-serif;
 }

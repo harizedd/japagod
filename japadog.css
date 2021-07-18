@@ -5,6 +5,10 @@
     ;
 }
 
+body {
+    background-image: url(Hotdog_Bckgrnd_Pattern_2.png);
+}
+
 .header {
     /* min-height: 120vh; */
     width: 100%;
@@ -76,10 +80,10 @@ button {
 
 .navbar a {
     float: left;
-    padding: 0px;
+    padding: 4px;
     color: rgb(238, 28, 37);
     text-decoration: none;
-    font-size: 35px;
+    font-size: 30px;
     width: 20%;
     text-align: center;
     border-top-width: 8px;
@@ -87,13 +91,16 @@ button {
     border-color: #F0141E;
     border-width: 5px;
     border-radius: 12px;
+    margin: 1px;
     box-sizing: border-box;
     background-color: #ffba08;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .navbar a:hover {
-    background-color: white;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 @media screen and (max-width: 500px) {
@@ -161,8 +168,8 @@ h1 {
 .lanches-col {
     flex-basis: 31%;
     background-color: rgb(238, 28, 37);
-    border-radius: 15%;
-    margin-bottom: 5%;
+    border-radius: 30%;
+    margin-bottom: 27px;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.3s;
@@ -212,7 +219,7 @@ h3 {
 .bebidas-col {
     flex-basis: 31%;
     background-color: rgb(238, 28, 37);
-    border-radius: 15%;
+    border-radius: 30%;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
@@ -371,7 +378,6 @@ h3 {
 }
 
 .contato {
-    width: 80%;
     margin: auto;
 }
 
@@ -396,4 +402,10 @@ h3 {
     color: red;
     margin: 10px;
     margin-right: 30px;
+}
+
+.row1 {
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
 }

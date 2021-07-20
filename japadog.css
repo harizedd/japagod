@@ -287,8 +287,6 @@ h3 {
     padding-top: 2px;
 }
 
-#copyright {}
-
 
 /* .footer ul li.mastercard {
     font-size: 14px;
@@ -331,10 +329,9 @@ h3 {
 
 .icons .fab {
     color: white;
-    margin: 0 13px;
+    margin: 10px;
     cursor: pointer;
-    padding: 18px 0;
-    width: 2%;
+    padding: 0px 0;
     font-size: 30px;
 }
 
@@ -361,6 +358,15 @@ h3 {
     width: 4%;
 }
 
+.icons button {
+    background-color: red;
+}
+
+.icons button .fab {
+    background-color: red;
+    border: none;
+}
+
 .signature {
     padding-top: 1%;
     font-family: 'Trebuchet MS', sans-serif;
@@ -384,30 +390,78 @@ h3 {
 }
 
 .contato-col {
-    flex-basis: 50%;
-    margin-bottom: 30px;
-    display: flex;
+    /* display: flex; */
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
     font-size: 30px;
-    color: green;
+    color: orangered;
+    flex-basis: 20%;
+    background-color: #f4f4f4;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    margin-bottom: 27px;
+    padding: 0px 12px;
+    margin: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home {
+    justify-content: center;
+}
+
+.phone {
+    justify-content: center;
+}
+
+.clock {
+    justify-content: center;
 }
 
 .contato-col div {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .contato-col div .fa {
-    font-size: 28px;
-    color: red;
-    margin: 10px;
-    margin-right: 30px;
+    font-size: 35px;
+    color: rgb(238, 28, 37);
+    margin-top: 15%;
+    justify-content: center;
+}
+
+.contato-col div .far {
+    font-size: 35px;
+    color: rgb(238, 28, 37);
+    margin-top: 15%;
+    justify-content: center;
 }
 
 .row1 {
     margin-top: 0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+#canto {
+    /* display: none; */
+    position: fixed;
+    top: 45%;
+    left: 0;
+    background: rgb(238, 28, 37);
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    max-width: 170px;
+    padding: 13px 0;
+    z-index: 9000;
 }

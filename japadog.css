@@ -465,3 +465,105 @@ h5 {
     padding: 13px 0;
     z-index: 9000;
 }
+
+
+/* --                           Pagamento                    --*/
+
+.wrapper {
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 350px;
+}
+
+.wrapper .checkout_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.wrapper .checkout_wrapper .poduct_info {
+    width: 45%;
+    background: #e85c4d;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+
+.wrapper .checkout_wrapper .poduct_info img {
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.wrapper .checkout_wrapper .poduct_info .content {
+    text-align: center;
+    margin-top: 25px;
+    color: #2c0603;
+    text-transform: uppercase;
+}
+
+.wrapper .checkout_wrapper .poduct_info .content h3 {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.wrapper .checkout_wrapper .poduct_info .content p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.wrapper .checkout_wrapper .checkout_form {
+    width: 55%;
+    background: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 50px 30px;
+}
+
+.wrapper .checkout_wrapper .checkout_form p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.wrapper .checkout_wrapper .checkout_form .section {
+    margin-bottom: 15px;
+}
+
+.wrapper .checkout_wrapper .checkout_form .section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #dddddd;
+}
+
+.wrapper .checkout_wrapper .checkout_form .section input[type="text"]:focus {
+    border-color: red;
+}
+
+.wrapper.checkout_wrapper.checkout_form.section input[type="text"]:focus {
+    border-color: red;
+}
+
+.wrapper .checkout_wrapper .checkout_form .btn {
+    background: #e85c4d;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.wrapper .checkout_wrapper .checkout_form .btn a {
+    color: #fff;
+    letter-spacing: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+.wrapper .checkout_wrapper .checkout_form .btn :hover {
+    color: black;
+}
